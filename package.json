@@ -39,7 +39,7 @@
 		"uri-js": "^4.2.2"
 	},
 	"scripts": {
-		"start": "ts-node src/server/index.ts",
+		"start": "next build && next export && ts-node src/server/index.ts",
 		"clean": "rm -rf out"
 	}
 }
