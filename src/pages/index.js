@@ -1,0 +1,1 @@
+export default () => <p>This is NEXT Dynamic COmponent</p>;

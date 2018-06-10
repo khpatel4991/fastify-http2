@@ -1,0 +1,10 @@
+.env
+.pg-variables.env
+.vscode/
+.next/
+out/
+node_modules/
+build/
+tmp/
+temp/
+postgres-data/
