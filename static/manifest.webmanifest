@@ -1,0 +1,45 @@
+{
+  "name": "Fastify HTTP2",
+  "short_name": "fastufy-http2",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A simple server rendered HTTP2 web app.",
+  "icons": [
+    {
+      "src": "/static/icon_1024x1024.2dee7fdfe1df876195c0266f9cdab88b.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/icon_512x512.4e95898a1e29dfa3227e77f01a527317.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/icon_384x384.7cc562eb98eea8bf488166779292ed5c.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/icon_256x256.7944572d7d62634375d833bcf4ab0b5d.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/icon_192x192.9c906de555ab5158559b6fe83b962bab.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/icon_128x128.1e99224734994542c72e4c61ca447e5c.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/icon_96x96.a05c8e715aa074535bde246a268b7dbd.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+}

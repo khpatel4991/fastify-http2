@@ -2,6 +2,7 @@
 	"name": "session-store",
 	"version": "0.0.1",
 	"description": "Maintain User Sessions",
+	"license": "MIT",
 	"devDependencies": {
 		"@babel/core": "^7.0.0-beta.46",
 		"@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.46",
@@ -40,7 +41,8 @@
 		"uri-js": "^4.2.2"
 	},
 	"scripts": {
-		"start": "next build && next export && ts-node src/server/index.ts",
+		"start": "yarn build && ts-node src/server/index.ts | pino-pretty -c -t",
+		"build": "yarn clean && next build && next export",
 		"clean": "rm -rf out"
 	}
 }
