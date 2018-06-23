@@ -7,7 +7,7 @@ Create `.env` file correctly when installing the project for the first time.
 
 ```bash
 cp .env.sample .env
-cp .pog-variables.env.sample .pg-variables.env
+cp .pg-variables.env.sample .pg-variables.env
 # Edit the env variables as per your env.
 ```
 
